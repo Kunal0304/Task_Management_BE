@@ -1,0 +1,411 @@
+2024-09-08T11:30:44.032Z [error]: SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-08T11:38:42.136Z [error]: SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T04:39:33.081Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:08:48.226Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:09:53.425Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:13:55.788Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:15:59.178Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:17:51.946Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:20:16.419Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:20:48.284Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:21:10.102Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:27:02.908Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:27:49.633Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:31:15.001Z [error]: SequelizeConnectionError: Got timeout reading communication packets
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:33:21.219Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:33:48.270Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:34:43.271Z [error]: SequelizeConnectionError: Got timeout reading communication packets
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+2024-09-28T05:35:17.408Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:36:10.722Z [error]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:41:09.287Z [error]: SequelizeConnectionError: Got timeout reading communication packets
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:46:54.292Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T05:47:16.374Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:38:42.227Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:38:47.458Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:38:52.992Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:39:03.270Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:39:07.864Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:39:38.668Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:40:00.071Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:40:38.810Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:41:03.233Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:42:17.831Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:42:43.142Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:42:55.129Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:43:47.504Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2024-09-28T09:43:49.818Z [error]: SequelizeHostNotReachableError: connect EHOSTUNREACH 82.112.230.104:3306
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:98:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\kunal Data\Triangle Investment\triangle_apis\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/kunal%20Data/Triangle%20Investment/triangle_apis/server.js:9:5)
+2025-01-20T18:34:00.728Z [error]: SequelizeConnectionError: Unknown database 'task_managment_app'
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/task%20managment/task-management-backend/server.js:9:5)
+2025-01-20T18:34:12.559Z [error]: SequelizeConnectionError: Unknown database 'task_managment_app'
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/task%20managment/task-management-backend/server.js:9:5)
