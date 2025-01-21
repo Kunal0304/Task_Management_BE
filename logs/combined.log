@@ -832,3 +832,5 @@
     at async User.sync (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\model.js:939:21)
     at async Sequelize.sync (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\sequelize.js:377:9)
     at async startServer (file:///C:/Users/DELL/Desktop/task%20managment/Task_Management_BE/server.js:9:5)
+2025-01-21T06:23:07.254Z [info]: Database Connected Successfully.
+2025-01-21T06:23:07.261Z [info]: Server is running on port: 8900
