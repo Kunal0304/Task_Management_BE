@@ -11,7 +11,7 @@ const getConfig = () => {
       database: process.env.DB_NAME,
       host: process.env.DB_HOST,
       port: process.env.PORT || 3306,
-      dialect: 'mysql',
+      dialect: 'postgres',
     },
     test: {
       username: process.env.DB_USER,
@@ -19,7 +19,7 @@ const getConfig = () => {
       database: process.env.DB_NAME_TEST,
       host: process.env.DB_HOST,
       port: process.env.PORT,
-      dialect: 'mysql',
+      dialect: 'postgres',
     },
     prod: {
       username: process.env.DB_USER,
@@ -27,7 +27,7 @@ const getConfig = () => {
       database: process.env.DB_NAME,
       host: process.env.DB_HOST,
       port: process.env.PORT,
-      dialect: 'mysql',
+      dialect: 'postgres',
       FAST_2_SMS_API_KEY: process.env.FAST_2_SMS_API_KEY,
     },
   };
