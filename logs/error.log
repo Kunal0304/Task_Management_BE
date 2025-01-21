@@ -409,3 +409,14 @@
     at async User.sync (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\model.js:939:21)
     at async Sequelize.sync (C:\Users\DELL\Desktop\task managment\task-management-backend\node_modules\sequelize\lib\sequelize.js:377:9)
     at async startServer (file:///C:/Users/DELL/Desktop/task%20managment/task-management-backend/server.js:9:5)
+2025-01-21T05:15:42.572Z [error]: SequelizeAccessDeniedError: Access denied for user 'postgres'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (C:\Users\DELL\Desktop\task managment\Task_Management_BE\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async startServer (file:///C:/Users/DELL/Desktop/task%20managment/Task_Management_BE/server.js:9:5)
