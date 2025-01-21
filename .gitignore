@@ -1,3 +1,73 @@
-node_modules
+# Node modules
+node_modules/
 
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
 .env
+
+# Build output
+dist/
+build/
+*.tgz
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by testing tools
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional yarn cache directory
+.yarn-cache
+
+# Optional eslint cache
+.eslintcache
+
+# Other
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.kdbx
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+Dockerfile.*
+
+# PM2 logs
+pids/
+*.pid
+*.pid.lock
+
+# Sentry files
+sentry.properties
+
+# Next.js build output
+.next/
+
+# Nuxt.js build output
+.nuxt/
+
+# Storybook build output
+out/
+storybook-static/
